@@ -4,6 +4,7 @@ import Image from "./Image";
 
 const columnHelper = createColumnHelper();
 
+//Basic Table Structure
 export const columnDef = [
   columnHelper.accessor("id", {
     header: "Id",
@@ -41,3 +42,119 @@ export const columnDef = [
   },
 
 ];
+
+// cell merge example
+//merging id and name 
+export const columnDefWithCellMerge = [
+  {
+    accessorFn: (row) => `${row.id} ${row.name}`,
+    header: "Merged Field",
+  },
+];
+
+export const columnDefWithGrouping = [
+  columnHelper.accessor("id", {
+    header: "Id",
+  }),
+  {
+    accessorFn: (row)=> row.name.english,
+    header: "Name",
+  },
+  columnHelper.accessor('Image', {
+    cell: thumbnail => <img key={thumbnail} src={thumbnail.getValue()} alt="" className="" />
+}),
+{
+  accessorKey: "species",
+  header: "Species",
+},
+ {
+  accessorFn: (row)=> row?.image?.thumbnail,
+  header: "Image",
+  Cell: (getValue )=>  <Image status={getValue()} />,
+
+},
+  {
+    header: "Attributes",
+    columns: [
+      {
+        accessorFn: (row)=> row.base?.HP,
+        header: "HP",
+      },
+      {
+        accessorFn: (row)=> row.base?.Attack,
+        header: "Attack",
+      },  {
+        accessorFn: (row)=> row.base?.Defense,
+        header: "Defense",
+      },  {
+        accessorFn: (row)=> row.base?.Speed,
+        header: "Speed",
+      },
+    ],
+  },
+
+];
+
+// columnDef with Filters
+
+export const columnDefWithFilter = [
+  columnHelper.accessor("id", {
+    header: "Id",
+    enableColumnFilter: false,
+  }),
+  {
+    accessorFn: (row) => `${row.first_name}`,
+    header: "First Name",
+  },
+  {
+    accessorKey: "last_name",
+    header: "Last Name",
+  },
+  {
+    accessorKey: "email",
+    header: "Email",
+    enableColumnFilter: false,
+  },
+  {
+    accessorKey: "date",
+    header: "Date",
+    cell: ({ getValue }) => moment(new Date(getValue())).format("MMM Do YY"),
+  },
+];
+
+export const columnDefWithCheckBox = [
+  {
+    id: "select",
+    header: ({ table }) => (
+      <IndeterminateCheckbox
+        {...{
+          checked: table.getIsAllRowsSelected(),
+          indeterminate: table.getIsSomeRowsSelected(),
+          onChange: table.getToggleAllRowsSelectedHandler(),
+        }}
+      />
+    ),
+    cell: ({ row }) => (
+      <IndeterminateCheckbox
+        {...{
+          checked: row.getIsSelected(),
+          disabled: !row.getCanSelect(),
+          indeterminate: row.getIsSomeSelected(),
+          onChange: row.getToggleSelectedHandler(),
+        }}
+      />
+    ),
+  },
+  columnHelper.accessor("id", {
+    header: "Id",
+  }),
+  {
+    accessorFn: (row) => `${row.first_name}`,
+    header: "First Name",
+  },
+  {
+    accessorKey: "last_name",
+    header: "Last Name",
+  },
+
+]

@@ -4,6 +4,7 @@ import React from 'react'
 
 import NoPage from './pages/NoPage/NoPage.jsx';
 import BasicTablePage from "./pages/1_BasicTablePage/BasicTablePage.jsx";
+import SortingTablePage from "./pages/2_SortingTablePage/SortingTablePage.jsx"
 
 
 const ProjectRoutes = ({
@@ -20,6 +21,8 @@ const ProjectRoutes = ({
 		<Routes >				
 			{/* <Route path="/" element={auth ? <Navigate to="/dashboard" /> : <Home />} index />  */}
 			<Route path="/basictable" element={<BasicTablePage />} /> 
+			<Route path="/sortingtable" element={<SortingTablePage />} /> 
+
 			{/* <Route path="/forgotpassword" element={auth ? <Navigate to="/dashboard" /> :<ForgotPassword />} /> 
 			<Route path="/login" element={auth ? <Navigate to="/dashboard" /> :<Login />} /> 
 			<Route path="/register" element={auth ? <Navigate to="/dashboard" /> :<Register />} /> 
