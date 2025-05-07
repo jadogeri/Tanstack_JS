@@ -19,6 +19,12 @@ export const columnDef = [
     accessorKey: "species",
     header: "Species",
   },
+   {
+    accessorFn: (row)=> row?.image?.thumbnail,
+    header: "Image",
+    Cell: (getValue )=>  <Image status={getValue()} />,
+
+  },
   {
     accessorFn: (row)=> row.base?.HP,
     header: "HP",
@@ -33,5 +39,5 @@ export const columnDef = [
     accessorFn: (row)=> row.base?.Speed,
     header: "Speed",
   },
-  
+
 ];

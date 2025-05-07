@@ -16,8 +16,6 @@ const BasicTable = ({data}) => {
     getCoreRowModel: getCoreRowModel(),
   });
 
-  //   console.log("test", tableInstance.getHeaderGroups());
-
   return (
     
     <>

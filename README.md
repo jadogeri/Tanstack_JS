@@ -1,70 +1,125 @@
-# Getting Started with Create React App
+## **FastFoods**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Version:** 1.1
+**Date:** April 29, 2025
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Description
 
-### `npm start`
+This is a frontend Application migrating html5 bootsrap to ReactJS.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Authors
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [@jadogeri](https://www.github.com/jadogeri)
 
-### `npm test`
+## Acknowledgements
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-  Design and template by [W3layouts](https://w3layouts.com/)
 
-### `npm run build`
+## Project Template
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[Fast Food a Hotel Category Flat Bootstrap Responsive Web Template](https://w3layouts.com/template/fast-food-a-hotel-category-flat-bootstrap-responsive-web-template/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Deployment
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Application is deployed in vercel
 
-### `npm run eject`
+ [https://fastfood-smoky.vercel.app ](https://fastfood-smoky.vercel.app/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Repository
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [source code ](https://github.com/jadogeri/FastFoods/tree/main/fastfood)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Screenshots
+|                  BASIC  TABLE                 |                  BASIC  TABLE                 |
+-------------------------------------------------------------------------------------------------
+| ![Screenshot 1](assets/images/basictable.png) | ![Screenshot 1](assets/images/basictable.png) |
+| -------------------------------------------- | -------------------------------------------- |
+| ![Screenshot 1](assets/images/basictable.png) | ![Screenshot 1](assets/images/basictable.png) |
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Table of Contents
 
-## Learn More
+<ul>
+      <li><a href="#1-introduction">1. Introduction</a>
+        <ul>
+          <li><a href="#11-purpose">1.1 Purpose</a> </li>
+        </ul>
+      </li>
+    </ul>
+     <ul>
+      <li><a href="#5-installation">2. Installation</a>
+      </li>
+    </ul> 
+    <ul>
+        <li><a href="#6-usage">3. Usage</a>
+        <ul>
+            <li><a href="#61-run-application">3.1 Run Application</a> </li>
+            <ul>
+              <li><a href="#611-run-locally">3.1.1 Run Locally</a> </li>
+            </ul>
+        </ul>
+        </li>
+    </ul> 
+    <ul> 
+        <li><a href="#10-references">4. References</a>
+        </li>
+    <ul>
+</ul>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## **1. Introduction**
 
-### Code Splitting
+### **1.1 Purpose**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This document outlines the components, and design considerations for migrating html 5 responsive bootstrap to reactjs application.
 
-### Analyzing the Bundle Size
+## **2. Installation**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+* [Download and install NodeJS](https://nodejs.org/en/download)
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## **3. Usage**
 
-### Advanced Configuration
+**Prerequisites** :installation of NodeJS.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### **3.1 Run Application**
 
-### Deployment
+1 Open command prompt or terminal.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+2 Type command git clone https://github.com/jadogeri/fastfoods.git then press enter.
 
-### `npm run build` fails to minify
+```bash
+  git clone https://github.com/jadogeri/fastfoods.git
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+3 Enter command cd fastfoods/fastfood then press enter.
+
+```bash
+  cd fastfoods/fastfood
+```
+
+#### **3.1.1 Run Locally**
+
+1 Type npm install to install dependencies.
+
+```bash
+  npm install
+```
+
+2 Type npm start to run application
+
+```bash
+  npm start
+```
+---
+
+## **4. References**
+
+* FreeCodeCamp : [Frontend Web Development: (HTML, CSS, JavaScript, TypeScript, React)](https://www.youtube.com/watch?v=MsnQ5uepIa).
+* AweSome Open Source : [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+* Readme.so : [The easiest way to create a README](https://readme.so/)
+* HUXN Webdev : [Master ReactJS in 7 Hours with 10 Real-World Projects 2023](https://www.youtube.com/watch?v=XrwsMN2IWnE/)
+* Dave Gray : [React JS Full Course for Beginners | Complete All-in-One Tutorial | 9 Hours](https://www.youtube.com/watch?v=RVFAyFWO4go/)
+* Dipesh Malvia : [Learn React JS with Project in 2 Hours | React Tutorial for Beginners | React Project Crash Course](https://www.youtube.com/watch?v=0riHps91AzE/)

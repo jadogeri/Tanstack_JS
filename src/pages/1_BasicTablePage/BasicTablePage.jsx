@@ -5,8 +5,7 @@ const BasicTablePage = () => {
   return (
     <>
     <div>BasicTable</div>
-    <BasicTable data={pokemons}/>
-    
+    <BasicTable data={pokemons}/>    
     </>
   )
 }
