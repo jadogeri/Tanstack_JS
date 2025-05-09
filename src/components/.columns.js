@@ -13,8 +13,10 @@ export const columnDef = [
     accessorFn: (row)=> row.name.english,
     header: "Name",
   },
-  columnHelper.accessor('Image', {
-    cell: thumbnail => <img src={thumbnail.getValue()} alt="" className="" />
+  columnHelper.accessor('URL', {
+    cell: thumbnail => <img src={thumbnail.getValue()} alt="" className="" />,
+    header: "Icon",
+
 }),
   {
     accessorKey: "species",
@@ -22,7 +24,7 @@ export const columnDef = [
   },
    {
     accessorFn: (row)=> row?.image?.thumbnail,
-    header: "Image",
+    header: "URL",
     Cell: (getValue )=>  <Image status={getValue()} />,
 
   },
@@ -62,6 +64,7 @@ export const columnDefWithGrouping = [
   },
   columnHelper.accessor('Image', {
     cell: thumbnail => <img key={thumbnail} src={thumbnail.getValue()} alt="" className="" />
+    
 }),
 {
   accessorKey: "species",
