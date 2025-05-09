@@ -6,6 +6,7 @@ import NoPage from './pages/NoPage/NoPage.jsx';
 import BasicTablePage from "./pages/1_BasicTablePage/BasicTablePage.jsx";
 import SortingTablePage from "./pages/2_SortingTablePage/SortingTablePage.jsx"
 import GlobalFilterTablePage from "./pages/3_GlobalFilterTablePage/GlobalFilterTablePage.jsx";
+import ColumnFilterTablePage from "./pages/4_ColumnFilterTablePage/ColumnFilterTablePage.jsx";
 
 
 const ProjectRoutes = ({
@@ -24,6 +25,8 @@ const ProjectRoutes = ({
 			<Route path="/basictable" element={<BasicTablePage />} /> 
 			<Route path="/sortingtable" element={<SortingTablePage />} /> 
 			<Route path="/globalfiltertable" element={<GlobalFilterTablePage />} /> 
+			<Route path="/columnfiltertable" element={<ColumnFilterTablePage />} /> 
+
 
 
 
