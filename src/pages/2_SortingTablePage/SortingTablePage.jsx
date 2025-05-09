@@ -1,13 +1,13 @@
 import React from 'react'
 import pokemons from "../../pokemon.json"
 import SortingTable from '../../components/SortingTable'
-const BasicTablePage = () => {
+const SortingTablePage = () => {
   return (
     <>
-    <div>BasicTable</div>
+    <div>Sorting Table Page With Column Grouping</div>
     <SortingTable data={pokemons}/>    
     </>
   )
 }
 
-export default BasicTablePage
+export default SortingTablePage

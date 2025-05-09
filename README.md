@@ -32,11 +32,12 @@ Application is deployed in vercel
 - [source code ](https://github.com/jadogeri/FastFoods/tree/main/fastfood)
 
 ## Screenshots
-|                  BASIC  TABLE                 |                  BASIC  TABLE                 |
--------------------------------------------------------------------------------------------------
-| ![Screenshot 1](assets/images/basictable.png) | ![Screenshot 1](assets/images/basictable.png) |
+|                  BASIC  TABLE                                   |  SORTING TABLE                                 |
+------------------------------------------------|------------------------------------------------
+| ![Screenshot 1](assets/images/basictable.png) | ![Screenshot 1](assets/images/sortingtable.png) |
+|                  GLOBAL  TABLE                                   |  SORTING TABLE                                 |
 | -------------------------------------------- | -------------------------------------------- |
-| ![Screenshot 1](assets/images/basictable.png) | ![Screenshot 1](assets/images/basictable.png) |
+| ![Screenshot 1](assets/images/globalfiltertable.png) | ![Screenshot 1](assets/images/basictable.png) |
 
 ## Table of Contents
 
