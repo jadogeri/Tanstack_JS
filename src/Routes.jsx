@@ -5,6 +5,7 @@ import React from 'react'
 import NoPage from './pages/NoPage/NoPage.jsx';
 import BasicTablePage from "./pages/1_BasicTablePage/BasicTablePage.jsx";
 import SortingTablePage from "./pages/2_SortingTablePage/SortingTablePage.jsx"
+import GlobalFilterTablePage from "./pages/3_GlobalFilterTablePage/GlobalFilterTablePage.jsx";
 
 
 const ProjectRoutes = ({
@@ -22,6 +23,9 @@ const ProjectRoutes = ({
 			{/* <Route path="/" element={auth ? <Navigate to="/dashboard" /> : <Home />} index />  */}
 			<Route path="/basictable" element={<BasicTablePage />} /> 
 			<Route path="/sortingtable" element={<SortingTablePage />} /> 
+			<Route path="/globalfiltertable" element={<GlobalFilterTablePage />} /> 
+
+
 
 			{/* <Route path="/forgotpassword" element={auth ? <Navigate to="/dashboard" /> :<ForgotPassword />} /> 
 			<Route path="/login" element={auth ? <Navigate to="/dashboard" /> :<Login />} /> 

@@ -6,10 +6,10 @@ import {
   getCoreRowModel,
   getSortedRowModel,
 } from "@tanstack/react-table";
-import { columnDefWithGrouping } from "./.columns";
+import { columnDefWithGroupingAndSorting } from "./.columns";
 const SortingTable = ({ data}) => {
   const finalData = React.useMemo(() => data, []);
-  const finalColumnDef = React.useMemo(() => columnDefWithGrouping, []);
+  const finalColumnDef = React.useMemo(() => columnDefWithGroupingAndSorting, []);
 
   const [sorting, setSorting] = React.useState([]);
 

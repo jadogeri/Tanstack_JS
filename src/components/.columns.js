@@ -53,8 +53,9 @@ export const columnDefWithCellMerge = [
     header: "Merged Field",
   },
 ];
+//Sorting Table With Grouping Structure
 
-export const columnDefWithGrouping = [
+export const columnDefWithGroupingAndSorting = [
   columnHelper.accessor("id", {
     header: "Id",
   }),
@@ -62,8 +63,9 @@ export const columnDefWithGrouping = [
     accessorFn: (row)=> row.name.english,
     header: "Name",
   },
-  columnHelper.accessor('Image', {
-    cell: thumbnail => <img key={thumbnail} src={thumbnail.getValue()} alt="" className="" />
+  columnHelper.accessor('URL', {
+    cell: thumbnail => <img key={thumbnail} src={thumbnail.getValue()} alt="" className="" />,
+    header: "Image",
     
 }),
 {
@@ -72,7 +74,7 @@ export const columnDefWithGrouping = [
 },
  {
   accessorFn: (row)=> row?.image?.thumbnail,
-  header: "Image",
+  header: "URL",
   Cell: (getValue )=>  <Image status={getValue()} />,
 
 },
@@ -101,6 +103,53 @@ export const columnDefWithGrouping = [
 // columnDef with Filters
 
 export const columnDefWithFilter = [
+  columnHelper.accessor("id", {
+    header: "Id",
+  }),
+  {
+    accessorFn: (row)=> row.name.english,
+    header: "Name",
+  },
+  columnHelper.accessor('URL', {
+    cell: thumbnail => <img src={thumbnail.getValue()} alt="" className="" />,
+    header: "Icon",
+    enableColumnFilter: false,  
+
+
+}),
+  {
+    accessorKey: "species",
+    header: "Species",
+  },
+   {
+    accessorFn: (row)=> row?.image?.thumbnail,
+    header: "URL",
+    Cell: (getValue )=>  <Image status={getValue()} />,
+    enableColumnFilter: false,  
+
+  },
+  {
+    accessorFn: (row)=> row.base?.HP,
+    header: "HP",
+  },
+  {
+    accessorFn: (row)=> row.base?.Attack,
+    header: "Attack",
+  },  {
+    accessorFn: (row)=> row.base?.Defense,
+    header: "Defense",
+  },  {
+    accessorFn: (row)=> row.base?.Speed,
+    header: "Speed",
+  },
+  //   {
+  //   accessorKey: "date",
+  //   header: "Date",
+  //   cell: ({ getValue }) => moment(new Date(getValue())).format("MMM Do YY"),
+  // },
+];
+
+export const columnDefWithFilter2 = [
   columnHelper.accessor("id", {
     header: "Id",
     enableColumnFilter: false,

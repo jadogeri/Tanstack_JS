@@ -9,7 +9,6 @@ import { columnDef } from "./.columns";
 const BasicTable = ({data}) => {
   const finalData = React.useMemo(() => data, []);
   const finalColumnDef = React.useMemo(() => columnDef, []);
-
   const tableInstance = useReactTable({
     columns: finalColumnDef,
     data: finalData,
