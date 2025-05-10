@@ -8,7 +8,7 @@ import SortingTablePage from "./pages/2_SortingTablePage/SortingTablePage.jsx"
 import GlobalFilterTablePage from "./pages/3_GlobalFilterTablePage/GlobalFilterTablePage.jsx";
 import ColumnFilterTablePage from "./pages/4_ColumnFilterTablePage/ColumnFilterTablePage.jsx";
 import PaginationTablePage from "./pages/5_PaginationTablePage/PaginationTablePage.jsx";
-import Home from "./pages/Hone/Home.jsx";
+import Index from "./pages/Hone/Home.jsx";
 
 
 const ProjectRoutes = ({
@@ -18,12 +18,12 @@ const ProjectRoutes = ({
 
 	<>
 	
-	<BrowserRouter >
+	<BrowserRouter basename={"/Tanstack_React_Table_JS"}>
 	{/* <NavBar />	 */}
 
 	{/* <AppBar/>	 */}
 		<Routes >				
-			<Route path="/" element={<Home />} index /> 
+			<Route path="/" element={<Index />} index /> 
 			<Route path="/basictable" element={<BasicTablePage />} /> 
 			<Route path="/sortingtable" element={<SortingTablePage />} /> 
 			<Route path="/globalfiltertable" element={<GlobalFilterTablePage />} /> 
