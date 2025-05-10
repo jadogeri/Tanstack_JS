@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Tanstack_React_Table_JS/static/css/main.c58eec25.css",
+    "main.js": "/Tanstack_React_Table_JS/static/js/main.b8d9af7f.js",
+    "static/js/453.77e7af1f.chunk.js": "/Tanstack_React_Table_JS/static/js/453.77e7af1f.chunk.js",
+    "index.html": "/Tanstack_React_Table_JS/index.html",
+    "main.c58eec25.css.map": "/Tanstack_React_Table_JS/static/css/main.c58eec25.css.map",
+    "main.b8d9af7f.js.map": "/Tanstack_React_Table_JS/static/js/main.b8d9af7f.js.map",
+    "453.77e7af1f.chunk.js.map": "/Tanstack_React_Table_JS/static/js/453.77e7af1f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c58eec25.css",
+    "static/js/main.b8d9af7f.js"
+  ]
+}
