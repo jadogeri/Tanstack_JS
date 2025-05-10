@@ -29,7 +29,7 @@ Application is deployed using Github Pages
 
 ## Repository
 
-- [https://github.com/jadogeri/Tanstack_React_Table_JS.git](https://github.com/jadogeri/Tanstack_React_Table_JS.git)
+[https://github.com/jadogeri/Tanstack_React_Table_JS.git](https://github.com/jadogeri/Tanstack_React_Table_JS.git)
 
 ## Screenshots
 
