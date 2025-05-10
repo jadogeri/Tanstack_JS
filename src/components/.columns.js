@@ -14,7 +14,7 @@ export const columnDef = [
     header: "Name",
   },
   columnHelper.accessor('URL', {
-    cell: thumbnail => <img src={thumbnail.getValue()} alt="" className="" />,
+    cell: thumbnail => <img src={thumbnail.getValue()} height={40} alt="" className="" />,
     header: "Icon",
 
 }),
@@ -111,7 +111,7 @@ export const columnDefWithFilter = [
     header: "Name",
   },
   columnHelper.accessor('URL', {
-    cell: thumbnail => <img src={thumbnail.getValue()} alt="" className="" />,
+    cell: thumbnail => <img src={thumbnail.getValue()} alt="" className="" height={40}/>,
     header: "Icon",
     enableColumnFilter: false,  
 

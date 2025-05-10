@@ -4,7 +4,7 @@ const Image = ({
     src,
 }) => {
   return (
-    <img src={src} alt="image" width={200} height={200}/>
+    <img src={src} alt="image" style={{width:20,height:1}}/>
   )
 }
 
