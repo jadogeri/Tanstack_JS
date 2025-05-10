@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Tanstack_React_Table_JS/static/css/main.c58eec25.css",
-    "main.js": "/Tanstack_React_Table_JS/static/js/main.251e3ffa.js",
-    "static/js/453.77e7af1f.chunk.js": "/Tanstack_React_Table_JS/static/js/453.77e7af1f.chunk.js",
-    "index.html": "/Tanstack_React_Table_JS/index.html",
-    "main.c58eec25.css.map": "/Tanstack_React_Table_JS/static/css/main.c58eec25.css.map",
-    "main.251e3ffa.js.map": "/Tanstack_React_Table_JS/static/js/main.251e3ffa.js.map",
-    "453.77e7af1f.chunk.js.map": "/Tanstack_React_Table_JS/static/js/453.77e7af1f.chunk.js.map"
+    "main.css": "/static/css/main.c58eec25.css",
+    "main.js": "/static/js/main.89a8a22b.js",
+    "static/js/453.77e7af1f.chunk.js": "/static/js/453.77e7af1f.chunk.js",
+    "index.html": "/index.html",
+    "main.c58eec25.css.map": "/static/css/main.c58eec25.css.map",
+    "main.89a8a22b.js.map": "/static/js/main.89a8a22b.js.map",
+    "453.77e7af1f.chunk.js.map": "/static/js/453.77e7af1f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c58eec25.css",
-    "static/js/main.251e3ffa.js"
+    "static/js/main.89a8a22b.js"
   ]
 }
