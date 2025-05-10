@@ -7,6 +7,8 @@ import BasicTablePage from "./pages/1_BasicTablePage/BasicTablePage.jsx";
 import SortingTablePage from "./pages/2_SortingTablePage/SortingTablePage.jsx"
 import GlobalFilterTablePage from "./pages/3_GlobalFilterTablePage/GlobalFilterTablePage.jsx";
 import ColumnFilterTablePage from "./pages/4_ColumnFilterTablePage/ColumnFilterTablePage.jsx";
+import PaginationTablePage from "./pages/5_PaginationTablePage/PaginationTablePage.jsx";
+import Home from "./pages/Hone/Home.jsx";
 
 
 const ProjectRoutes = ({
@@ -21,25 +23,12 @@ const ProjectRoutes = ({
 
 	{/* <AppBar/>	 */}
 		<Routes >				
-			{/* <Route path="/" element={auth ? <Navigate to="/dashboard" /> : <Home />} index />  */}
+			<Route path="/" element={<Home />} index /> 
 			<Route path="/basictable" element={<BasicTablePage />} /> 
 			<Route path="/sortingtable" element={<SortingTablePage />} /> 
 			<Route path="/globalfiltertable" element={<GlobalFilterTablePage />} /> 
 			<Route path="/columnfiltertable" element={<ColumnFilterTablePage />} /> 
-
-
-
-
-			{/* <Route path="/forgotpassword" element={auth ? <Navigate to="/dashboard" /> :<ForgotPassword />} /> 
-			<Route path="/login" element={auth ? <Navigate to="/dashboard" /> :<Login />} /> 
-			<Route path="/register" element={auth ? <Navigate to="/dashboard" /> :<Register />} /> 
-			<Route path="/test" element={<TestPage />} /> 		
-			<Route path="/credits" element={<Credits />  } />
-			<Route path="/about" element={<About />  } />
-			<Route path="/contact" element={<Contact />  } />
-			<Route path="/product" element={<ProductDetail />  } />
-			<Route path="/test" element={<TestPage />} />  */}
-				 
+			<Route path="/paginationtable" element={<PaginationTablePage />} /> 
 
 			<Route path="*" element={<NoPage />} />
 		</Routes>

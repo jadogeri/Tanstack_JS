@@ -1,13 +1,13 @@
-## **FastFoods**
+## **Tanstack React Table JS**
 
 **Version:** 1.1
-**Date:** April 29, 2025
+**Date:** May 10, 2025
 
 ---
 
 ## Description
 
-This is a frontend Application migrating html5 bootsrap to ReactJS.
+This is a frontend Application template to build tables with ReactJS.
 
 ## Authors
 
@@ -15,28 +15,31 @@ This is a frontend Application migrating html5 bootsrap to ReactJS.
 
 ## Acknowledgements
 
--  Design and template by [W3layouts](https://w3layouts.com/)
+- Design and template by [dmitrisanzharov](https://github.com/dmitrisanzharov)
 
 ## Project Template
 
-[Fast Food a Hotel Category Flat Bootstrap Responsive Web Template](https://w3layouts.com/template/fast-food-a-hotel-category-flat-bootstrap-responsive-web-template/)
+-[source code](https://github.com/dmitrisanzharov/tanstack-yt-react-table-v8)
 
 ## Deployment
 
-Application is deployed in vercel
+Application is deployed using Github Pages
 
- [https://fastfood-smoky.vercel.app ](https://fastfood-smoky.vercel.app/)
+ [https://jadogeri.github.io/Tanstack_React_Table_JS/ ](https://jadogeri.github.io/Tanstack_React_Table_JS/)
 
 ## Repository
 
-- [source code ](https://github.com/jadogeri/FastFoods/tree/main/fastfood)
+- [source code ](https://github.com/jadogeri/Tanstack_React_Table_JS.git)
 
 ## Screenshots
-|                  BASIC  TABLE                                   |  SORTING TABLE                                 |
-------------------------------------------------|------------------------------------------------
-| ![Screenshot 1](assets/images/basictable.png) | ![Screenshot 1](assets/images/sortingtable.png) |
-|                  GLOBAL FILTER TABLE                                   |  COLUMN FILTER TABLE                                 |
-| ![Screenshot 1](assets/images/globalfiltertable.png) | ![Screenshot 1](assets/images/basictable.png) |
+
+| BASIC  TABLE                                       | SORTING TABLE                                 |
+| -------------------------------------------------- | --------------------------------------------- |
+| ![Screenshot 1](assets/images/basictable.png)        | ![Screenshot 1](assets/images/sortingtable.png) |
+| GLOBAL FILTER TABLE                                | COLUMN FILTER TABLE                           |
+| ![Screenshot 1](assets/images/globalfiltertable.png) | ![Screenshot 1](assets/images/basictable.png)   |
+| PAGINATION TABLE                                   | PAGINATION TABLE                              |
+| ![Screenshot 1](assets/images/paginationtable.png)   | ![Screenshot 1](assets/images/basictable.png)   |
 
 ## Table of Contents
 
@@ -67,12 +70,11 @@ Application is deployed in vercel
     <ul>
 </ul>
 
-
 ## **1. Introduction**
 
 ### **1.1 Purpose**
 
-This document outlines the components, and design considerations for migrating html 5 responsive bootstrap to reactjs application.
+This document outlines the components, and design considerations for utilizing tanstack react table templates in a reactjs application.
 
 ## **2. Installation**
 
@@ -88,16 +90,16 @@ This document outlines the components, and design considerations for migrating h
 
 1 Open command prompt or terminal.
 
-2 Type command git clone https://github.com/jadogeri/fastfoods.git then press enter.
+2 Type command git clone https://github.com/jadogeri/Tanstack_React_Table_JS.git then press enter.
 
 ```bash
-  git clone https://github.com/jadogeri/fastfoods.git
+  git clone https://github.com/jadogeri/Tanstack_React_Table_JS.git
 ```
 
-3 Enter command cd fastfoods/fastfood then press enter.
+3 Enter command cd Tanstack_React_Table_JS then press enter.
 
 ```bash
-  cd fastfoods/fastfood
+  cd Tanstack_React_Table_JS
 ```
 
 #### **3.1.1 Run Locally**
@@ -113,6 +115,7 @@ This document outlines the components, and design considerations for migrating h
 ```bash
   npm start
 ```
+
 ---
 
 ## **4. References**
@@ -123,3 +126,8 @@ This document outlines the components, and design considerations for migrating h
 * HUXN Webdev : [Master ReactJS in 7 Hours with 10 Real-World Projects 2023](https://www.youtube.com/watch?v=XrwsMN2IWnE/)
 * Dave Gray : [React JS Full Course for Beginners | Complete All-in-One Tutorial | 9 Hours](https://www.youtube.com/watch?v=RVFAyFWO4go/)
 * Dipesh Malvia : [Learn React JS with Project in 2 Hours | React Tutorial for Beginners | React Project Crash Course](https://www.youtube.com/watch?v=0riHps91AzE/)
+* Github Pages : [Learn to deploy React App & Render using Github Pages Tutorial](https://github.com/gitname/react-gh-pages)
+* CoderDimitri : [Learn Tanstack React Table Tutorial ](https://www.youtube.com/watch?v=fL8VlLe8Upo)
+
+
+
