@@ -10,6 +10,7 @@ const Home = () => {
     <button onClick={()=>{navigate("/sortingtable")}}> sorting table</button>
     <button onClick={()=>{navigate("/globalfiltertable")}}> global filter table</button>
     <button onClick={()=>{navigate("/columnfiltertable")}}> column filter table</button>
+    <button onClick={()=>{navigate("/columnresizabletable")}}> column resizable table</button>
     <button onClick={()=>{navigate("/paginationtable")}}> pagination table</button>
 
     </>

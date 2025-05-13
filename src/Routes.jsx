@@ -7,6 +7,8 @@ import BasicTablePage from "./pages/1_BasicTablePage/BasicTablePage.jsx";
 import SortingTablePage from "./pages/2_SortingTablePage/SortingTablePage.jsx"
 import GlobalFilterTablePage from "./pages/3_GlobalFilterTablePage/GlobalFilterTablePage.jsx";
 import ColumnFilterTablePage from "./pages/4_ColumnFilterTablePage/ColumnFilterTablePage.jsx";
+import ColumnResizableTablePage from "./pages/6_ColumnResizableTablePage/ColumnResizableTablePage.jsx";
+
 import PaginationTablePage from "./pages/5_PaginationTablePage/PaginationTablePage.jsx";
 import Index from "./pages/Hone/Home.jsx";
 
@@ -29,6 +31,8 @@ const ProjectRoutes = ({
 			<Route path="/globalfiltertable" element={<GlobalFilterTablePage />} /> 
 			<Route path="/columnfiltertable" element={<ColumnFilterTablePage />} /> 
 			<Route path="/paginationtable" element={<PaginationTablePage />} /> 
+			<Route path="/columnresizabletable" element={<ColumnResizableTablePage />} /> 
+
 
 			<Route path="*" element={<NoPage />} />
 		</Routes>

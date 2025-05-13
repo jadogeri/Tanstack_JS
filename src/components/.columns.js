@@ -210,3 +210,44 @@ export const columnDefWithCheckBox = [
   },
 
 ]
+
+// column with resize
+export const columnResizeDef = [
+  columnHelper.accessor("id", {
+    header: "Id",
+  }),
+  {
+    accessorFn: (row)=> row.name.english,
+    header: "Name",
+  },
+  columnHelper.accessor('URL', {
+    cell: thumbnail => <img src={thumbnail.getValue()} height={40} alt="" className="" />,
+    header: "Icon",
+
+}),
+  {
+    accessorKey: "species",
+    header: "Species",
+  },
+   {
+    accessorFn: (row)=> row?.image?.thumbnail,
+    header: "URL",
+    Cell: (getValue )=>  <Image status={getValue()} />,
+
+  },
+  {
+    accessorFn: (row)=> row.base?.HP,
+    header: "HP",
+  },
+  {
+    accessorFn: (row)=> row.base?.Attack,
+    header: "Attack",
+  },  {
+    accessorFn: (row)=> row.base?.Defense,
+    header: "Defense",
+  },  {
+    accessorFn: (row)=> row.base?.Speed,
+    header: "Speed",
+  },
+
+];
