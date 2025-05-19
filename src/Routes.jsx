@@ -22,7 +22,7 @@ const ProjectRoutes = ({
 
 	<>
 	
-	<BrowserRouter >
+	<BrowserRouter basename={"/Tanstack_React_Table_JS"}>
 	{/* <NavBar />	 */}
 
 	{/* <AppBar/>	 */}
