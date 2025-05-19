@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Tanstack_React_Table_JS/static/css/main.65f9329f.css",
-    "main.js": "/Tanstack_React_Table_JS/static/js/main.bca4573e.js",
+    "main.js": "/Tanstack_React_Table_JS/static/js/main.c5f2659a.js",
     "static/js/453.77e7af1f.chunk.js": "/Tanstack_React_Table_JS/static/js/453.77e7af1f.chunk.js",
     "static/media/columnresizabletable.png": "/Tanstack_React_Table_JS/static/media/columnresizabletable.13e625369889419e4588.png",
     "static/media/sortingtable.png": "/Tanstack_React_Table_JS/static/media/sortingtable.7051564a4774b3ef2260.png",
@@ -11,11 +11,11 @@
     "static/media/paginationtable.png": "/Tanstack_React_Table_JS/static/media/paginationtable.056669fab23a16c9cd2f.png",
     "index.html": "/Tanstack_React_Table_JS/index.html",
     "main.65f9329f.css.map": "/Tanstack_React_Table_JS/static/css/main.65f9329f.css.map",
-    "main.bca4573e.js.map": "/Tanstack_React_Table_JS/static/js/main.bca4573e.js.map",
+    "main.c5f2659a.js.map": "/Tanstack_React_Table_JS/static/js/main.c5f2659a.js.map",
     "453.77e7af1f.chunk.js.map": "/Tanstack_React_Table_JS/static/js/453.77e7af1f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.65f9329f.css",
-    "static/js/main.bca4573e.js"
+    "static/js/main.c5f2659a.js"
   ]
 }
