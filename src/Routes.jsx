@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
+import { BrowserRouter,HashRouter, Route, Routes, Navigate } from "react-router-dom";
 import React from 'react'
 /**  ROUTES -- AUTHFLOW **/
 
@@ -12,6 +12,8 @@ import ColumnResizableTablePage from "./pages/6_ColumnResizableTablePage/ColumnR
 import PaginationTablePage from "./pages/5_PaginationTablePage/PaginationTablePage.jsx";
 import Index from "./pages/Hone/Home.jsx";
 
+//change browserrouter to HashRouter before 
+// deploying to github pages i.e change before npm run  deploy
 
 const ProjectRoutes = ({
 }) => {
@@ -20,7 +22,7 @@ const ProjectRoutes = ({
 
 	<>
 	
-	<BrowserRouter basename={"/Tanstack_React_Table_JS"}>
+	<BrowserRouter >
 	{/* <NavBar />	 */}
 
 	{/* <AppBar/>	 */}
