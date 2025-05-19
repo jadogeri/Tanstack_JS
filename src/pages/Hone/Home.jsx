@@ -70,30 +70,30 @@ const Home = () => {
     <div className="w3-row-padding ">
       <ImageCard
         src={require("../../assets/images/basictable.png")}
-        title={"Basic Table"} route="/Tanstack_React_Table_JS/basictable"
+        title={"Basic Table"} route="/basictable"
       />
       <ImageCard
         src={require("../../assets/images/sortingtable.png")}
-        title={"Sorting Table"} route="/Tanstack_React_Table_JS/sortingtable"
+        title={"Sorting Table"} route="/sortingtable"
       />
       <ImageCard
         src={require("../../assets/images/globalfiltertable.png")}
-        title={"Global Filter Table"} route="/Tanstack_React_Table_JS/globalfiltertable"
+        title={"Global Filter Table"} route="/globalfiltertable"
       />
       <ImageCard
         src={require("../../assets/images/columnfiltertable.png")}
-        title={"Column Filter Table"} route="/Tanstack_React_Table_JS/columnfiltertable"
+        title={"Column Filter Table"} route="/columnfiltertable"
       />
 
     </div>
     <div className="w3-row-padding ">
       <ImageCard
         src={require("../../assets/images/paginationtable.png")}
-        title={"Pagination Table"} route="/Tanstack_React_Table_JS/paginationtable"
+        title={"Pagination Table"} route="/paginationtable"
       />
       <ImageCard
         src={require("../../assets/images/columnresizabletable.png")}
-        title={"Column Resizable Table"} route="/Tanstack_React_Table_JS/columnresizabletable"
+        title={"Column Resizable Table"} route="/columnresizabletable"
       />
 
 

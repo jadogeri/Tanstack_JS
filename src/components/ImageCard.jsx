@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const ImageCard = ({
     src,
@@ -15,7 +16,9 @@ const ImageCard = ({
       {description}
     </p>
     <p>
-      <button className="w3-button w3-light-grey w3-block" onClick={()=>{ window.open(route, "_blank")}}>View</button>
+      <Link className="w3-button w3-light-grey w3-block" 
+      to={route} target="_blank" rel="noopener noreferrer"
+      >View</Link>
     </p>
   </div>
   )
