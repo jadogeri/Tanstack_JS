@@ -1,4 +1,4 @@
-import { BrowserRouter,HashRouter, Route, Routes, Navigate } from "react-router-dom";
+import { HashRouter, Route, Routes, Navigate } from "react-router-dom";
 import React from 'react'
 /**  ROUTES -- AUTHFLOW **/
 
@@ -22,7 +22,8 @@ const ProjectRoutes = ({
 
 	<>
 	
-	<BrowserRouter basename={"/Tanstack_React_Table_JS"}>
+	<HashRouter //basename={"/Tanstack_React_Table_JS"}
+	>
 	{/* <NavBar />	 */}
 
 	{/* <AppBar/>	 */}
@@ -38,7 +39,7 @@ const ProjectRoutes = ({
 
 			<Route path="*" element={<NoPage />} />
 		</Routes>
-	</BrowserRouter>
+	</HashRouter>
 
 	</>
 
